@@ -39,7 +39,7 @@ task zip(type: Zip) {
     
     // We're naming the zip file itself. When we're done, there should be a trainSchedule.zip sitting in the ./dist
     // directory.
-    baseName "trainSchedule"
+    baseName "train-schedule"
 }
  
 // This will make the build task call on the zip task. If zip doesn't finish, the build fails.
